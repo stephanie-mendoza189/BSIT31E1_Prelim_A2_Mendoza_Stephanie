@@ -6,6 +6,7 @@ while (true)
     string input = Console.ReadLine();
 
     if (input.ToLower() == "exit")
+
         break;
 
     double num1 = Convert.ToDouble(input);
@@ -43,9 +44,9 @@ while (true)
     Console.WriteLine("Result: " + result);
     Console.WriteLine();
 }
-//Console.WriteLine("Program ends");
 
 
+Console.WriteLine("Program ends");
 
 
 
