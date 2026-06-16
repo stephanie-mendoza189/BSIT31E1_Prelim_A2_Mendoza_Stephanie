@@ -18,8 +18,34 @@ while (true)
 
     double result = 0;
 
-    
+    if (operatorr == "+")
+    {
+        result = num1 + num2;
+    }
+    else if (operatorr == "-")
+    {
+        result = num1 - num2;
+    }
+    else if (operatorr == "*")
+    {
+        result = num1 * num2;
+    }
+    else if (operatorr == "/")
+    {
+        result = num1 / num2;
+    }
+    else
+    {
+        Console.WriteLine("Invalid operator");
+        continue;
+    }
+
+    Console.WriteLine("Result: " + result);
+    Console.WriteLine();
 }
+//Console.WriteLine("Program ends");
 
 
-    
+
+
+
